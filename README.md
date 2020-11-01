@@ -1,2 +1,2 @@
 # Aleios
-Alex
+Initial v1.00

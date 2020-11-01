@@ -1,5 +1,8 @@
 
 $(document).ready(function(){
+    
+    window.scrollTo(0,document.body.scrollTop); // load page on top
+   
     $("#myForm").submit(function() { //устанавливаем событие отправки для формы с id=form
         var form_data = $(this).serialize(); //собераем все данные из формы
         $.ajax({

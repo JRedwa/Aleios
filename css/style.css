@@ -155,21 +155,7 @@ body {
     }
   } 
 
-  @media (max-width: 960px) {
-    #contact-form, .sm{
-      left: 5%;
-      width: 90%;
-      padding: 3%;
-    }
-    .pos-abs {
-      position: relative;
-    }
-    .service-left, .service-right, .link-left, .link-right {
-      left: 0px;
-      margin-top: 25px;
-      width: 100%;
-    }
-  }
+  
 
   @media (max-width: 548px) {
     .navbar-toggler {
@@ -227,7 +213,22 @@ body {
     color: #7d7d7d;   
   }
 
-  
+  @media (max-width: 960px) {
+    #contact-form, .sm{
+      left: 5%;
+      width: 90%;
+      padding: 3%;
+    }
+    .pos-abs {
+      position: relative;
+    }
+    .service-left, .service-right, .link-left, .link-right{
+      left: 0px;
+      margin-top: 25px;
+      width: 100%;
+
+    }
+  }  
 
   
 

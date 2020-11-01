@@ -7,9 +7,7 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['email'])&&$_POST[
         $message = htmlspecialchars($_POST["message"]);
         $headers = "From $name\r\nEmail: $email\r\nContent-type: text/plain; charset=utf-8\r\n"; //Кодировка письма
         mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
-        $_SESSION["name"] = "";
-        $_SESSION["email"] = "";
-        $_SESSION["message"] = "";
+      
 }
 
 ?>

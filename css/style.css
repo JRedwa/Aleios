@@ -78,7 +78,7 @@ body {
 
    .pos-rel {
     position: relative;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
   }
 
   .pos-abs {
@@ -104,7 +104,7 @@ body {
   
   /* navigation section */
   .navbar{
-    padding: 0;
+    padding: 15px;
   }
   
   .navbar-toggler {
@@ -168,6 +168,7 @@ body {
   .about {
     background-image: url("../images/about.jpg");
     background-repeat: round;
+    background-size: contain;
     margin-bottom: 2%;
   }
   
@@ -194,17 +195,20 @@ body {
   .service1 {
     background-image: url("../images/s1.jpg");
     background-repeat: round; /* makes height 100%  and no repeat */
+    background-size: contain;
     padding-top: 2%;
   }
 
   .service2 {
     background-image: url("../images/s2.jpg");
+    background-size: contain;
     background-repeat: round;
     padding-top: 2%;
   }
 
   .service3 {
     background-image: url("../images/s3.jpg");
+    background-size: contain;
     background-repeat: round;
     padding-top: 2%;
   }

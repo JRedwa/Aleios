@@ -168,7 +168,7 @@ body {
   .about {
     background-image: url("../images/about.jpg");
     background-repeat: round;
-    background-size: contain;
+    background-size: cover;
     margin-bottom: 2%;
   }
   
@@ -192,23 +192,29 @@ body {
     width: 35%;
   }
 
+  @media (max-width: 1150px) {
+    .service-left, .service-right {
+      width: 50%;
+    }
+  } 
+
   .service1 {
     background-image: url("../images/s1.jpg");
     background-repeat: round; /* makes height 100%  and no repeat */
-    background-size: contain;
+    background-size: cover;
     padding-top: 2%;
   }
 
   .service2 {
     background-image: url("../images/s2.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: round;
     padding-top: 2%;
   }
 
   .service3 {
     background-image: url("../images/s3.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: round;
     padding-top: 2%;
   }
